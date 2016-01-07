@@ -1,0 +1,110 @@
+body {
+  /*Typography Declarations*/
+  color: #152136;
+  background-color: #d2d0d2;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica   Neue", sans-serif; 
+}
+.content-footer,
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url("../at arlington.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #28131A;
+  border-radius: 5px 5px;
+}
+
+.masthead-intro {
+  /*layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography declarations */
+  font-family:"Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  padding-top: 5em;
+}
+
+.masthead-heading {
+  /*Layout Declarations*/
+  margin-top: -0.2em;
+  /*Typography Declarations*/
+  font-family: "Open Sans","Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing:-0.02em;
+  text-transform: uppercase;
+}
+.masthead-intro,
+.masthead-heading {
+  color: #28131A;
+  text-shadow: 1px 2px 4px #9D9A92;
+}
+@media only screen and (max-width: 500px){
+    .masthead {
+        padding: 3em 0;
+      }
+      .masthead-heading {
+          font-size: 3em;
+      }
+         .content-footer {
+      font-size: 1em;
+      padding: 1em 0;
+      }
+      .social > li > a {
+        font-size: .75em;
+      }
+
+    }
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.content-footer {
+  background-color: #28131A;
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+
+.social > li {
+  display: inline-block;
+}
+a {
+  color: #B4923C;
+}
+
+.content-footer > p {
+  color: white;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p{
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  /*Typography Declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  /*Layout*/
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
