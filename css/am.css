@@ -1,6 +1,6 @@
 body {
   /*Typography Declarations*/
-  color: #152136;
+  color: #8A0707;
   background-color: #d2d0d2;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica   Neue", sans-serif; 
@@ -48,7 +48,7 @@ body {
 }
 .masthead-intro,
 .masthead-heading {
-  color: #28131A;
+  color: ##8A0707;
   text-shadow: 1px 2px 4px #9D9A92;
 }
 .introduction-section,
@@ -61,7 +61,7 @@ body {
   text-align: center;
 }
 .questions {
-  text-decoration: underline;
+  color:#8A0707
 }
 .content-footer {
   background-color: #28131A;
