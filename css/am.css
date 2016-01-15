@@ -10,10 +10,17 @@ body {
 .masthead-heading {
   text-align: center;
 }
+@media only screen and (max-width: 500px){
+    .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
 .masthead {
   padding: 6em 0;
-  background-image: url("../at arlington.jpg");
-  background-position: center;
+  background-image: url(http://i1243.photobucket.com/albums/gg545/jmpriddy/3d9577fb-6671-4d53-8577-d8491f457b19.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em #28131A;
@@ -44,23 +51,6 @@ body {
   color: #28131A;
   text-shadow: 1px 2px 4px #9D9A92;
 }
-@media only screen and (max-width: 500px){
-    .masthead {
-        padding: 3em 0;
-      }
-      .masthead-heading {
-          font-size: 3em;
-      }
-         .content-footer {
-      font-size: 1em;
-      padding: 1em 0;
-      }
-      .social > li > a {
-        font-size: .75em;
-      }
-
-    }
-
 .introduction-section,
 .location-section,
 .questions-section {
@@ -70,7 +60,9 @@ body {
   margin-top: 2em;
   text-align: center;
 }
-
+.questions {
+  text-decoration: underline;
+}
 .content-footer {
   background-color: #28131A;
   padding: 1em 0;
@@ -81,6 +73,7 @@ body {
 .social > li {
   display: inline-block;
 }
+
 a {
   color: #B4923C;
 }
@@ -100,7 +93,7 @@ a {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.2em;
   font-weight: bold;
-  color: black;
+  color: #744437;
   /*Layout*/
   margin: 2em 0 1em 0;
 }
