@@ -1,9 +1,10 @@
 body {
   /*Typography Declarations*/
-  color: #8A0707;
-  background-color: #d2d0d2;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica   Neue", sans-serif; 
+  color: #FFF;
+  background-color: #000;
+  font-size: 2em;
+  font-family: 'Cinzel', serif;    
+  text-shadow: .05em .1em .05em #8A0707; 
 }
 .content-footer,
 .masthead-intro,
@@ -15,7 +16,7 @@ body {
     padding: 3em 0;
   }
   .masthead-heading {
-    font-size: 3em;
+    font-size: 1em;
   }
 }
 .masthead {
@@ -27,7 +28,7 @@ body {
   background-size: cover;
   width:100%;
   height:100%;
-  border-top: solid 1em #28131A;
+  border-top: solid 1em #8A0707;
   border-radius: 5px 5px;
 }
 
@@ -35,7 +36,6 @@ body {
   /*layout Declarations */
   margin-bottom: 0.1em;
   /* Typography declarations */
-  font-family:"Gentium Book Basic", Georgia, serif;
   font-size: 2em;
   padding-top: 5em;
 }
@@ -44,7 +44,6 @@ body {
   /*Layout Declarations*/
   margin-top: -0.2em;
   /*Typography Declarations*/
-  font-family: "Open Sans","Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 6em;
   letter-spacing:-0.02em;
@@ -52,8 +51,8 @@ body {
 }
 .masthead-intro,
 .masthead-heading {
-  color: ##8A0707;
-  text-shadow: 1px 2px 4px #9D9A92;
+  color: #FFF;
+  text-shadow: .05em .01em .05em #8A0707;
   font-family: 'Dancing Script', cursive;
 }
 .introduction-section,
@@ -69,7 +68,7 @@ body {
   color:#8A0707
 }
 .content-footer {
-  background-color: #28131A;
+  background-color:#8A0707;
   padding: 1em 0;
   text-align: center;
   border-radius: 0 0 5px 5px;
@@ -95,7 +94,6 @@ a {
 }
 .questions-section > h2 {
   /*Typography Declarations*/
-  font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.2em;
   font-weight: bold;
   color: #744437;
