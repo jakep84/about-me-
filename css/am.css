@@ -20,14 +20,14 @@ body {
   }
 }
 .masthead {
-  padding: 6em 0;
-  postion:absolute;
+/*  padding: 1em 0;
+*/  postion:absolute;
   background-position:center;
   background-image: url(http://i1243.photobucket.com/albums/gg545/jmpriddy/3d9577fb-6671-4d53-8577-d8491f457b19.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
-  height:100%;
+  height:5%;
   border-top: solid 1em #8A0707;
   border-radius: 5px 5px;
 }
