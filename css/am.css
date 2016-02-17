@@ -1,18 +1,11 @@
 body {
-  /*Typography Declarations*/
-  /*color: #FFF;*/
-  color:black;
-  background-color:whitesmoke;
+  color: black;
+  background-color: whitesmoke;
   font-size: 2em;
   font-family: 'Cinzel', serif;    
   text-shadow: .05em .1em 1em #8A0707; 
-  text-align:center;
-}
-/*.content-footer,
-.masthead-intro,
-.masthead-heading {
   text-align: center;
-}*/
+}
 .content-footer, .masthead-intro, .masthead-heading {
     text-align: right;
 }
@@ -24,104 +17,82 @@ body {
     padding: 3em 0;
   }
   .masthead-heading {
-    /*font-size: 1em;*/
         font-size: 5.75em;
   }
 }
 .masthead {
-/*  padding: 1em 0;
-*/  postion:absolute;
+    postion:absolute;
     background-position: left;
-  /*background-position:center;*/
-  /*make background image come from image file, you have it already, build it*/
-  background-image: url("../us-flag.jpg");
-/*  background-image: url(http://i1243.photobucket.com/albums/gg545/jmpriddy/3d9577fb-6671-4d53-8577-d8491f457b19.jpg);
-*/  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: whitesmoke;
-  color:black;
-  width:100%;
-  height:5%;
-  /*  width: 68%;
-    height: 10%;*/
-  border-top: solid 1em #8A0707;
-  border-radius: 5px 5px;
+    background-image: url("../us-flag.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: whitesmoke;
+    color:black;
+    width:100%;
+    height:5%;
+    border-top: solid 1em #8A0707;
+    border-radius: 5px 5px;
 }
-
 .masthead-intro {
-  /*layout Declarations */
-  margin-bottom: 0.1em;
-  /* Typography declarations */
-  font-size: 2em;
-  padding-top: 5em;
+    margin-bottom: 0.1em;
+    font-size: 2em;
+    padding-top: 5em;
 }
-
 .masthead-heading {
-  /*Layout Declarations*/
-  margin-top: -0.2em;
-  /*Typography Declarations*/
-  font-weight: bold;
-  /*font-size: 6em;*/
-  font-size: 5.75em;
-  letter-spacing:-0.02em;
- /* text-transform: uppercase;*/
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 5.75em;
+    letter-spacing:-0.02em;
 }
 .masthead-intro,
 .masthead-heading {
-  color: black;
-  text-shadow: .05em .01em .25em #8A0707;
-  font-family: 'Dancing Script', cursive;
+    color: black;
+    text-shadow: .05em .01em .25em #8A0707;
+    font-family: 'Dancing Script', cursive;
 }
 .introduction-section,
 .location-section,
 .questions-section {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  text-align: center;
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    top:text-align: center;
 }
 .questions {
-  color:#8A0707
+    color:#8A0707
 }
 .content-footer {
-  background-color:#8A0707;
-  padding: 1em 0;
-  text-align: center;
-  border-radius: 0 0 5px 5px;
+    background-color:#8A0707;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
 }
-
 .social > li {
-  display: inline-block;
+    display: inline-block;
 }
-
 a {
-  color: #B4923C;
+    color: #B4923C;
 }
-
 .p {
-  color: white;
-  text-transform: lowercase;
+    color: white;
+    text-transform: lowercase;
 }
 p:first letter {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 .introduction-section > p,
 .location-section > p,
 .content-footer > p{
-  /* Typography Declarations */
-  font-weight: 300;
-  letter-spacing: 0.05em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 .questions-section > h2 {
-  /*Typography Declarations*/
-  font-size: 1.2em;
-  font-weight: bold;
-  color: white;
-  /*Layout*/
-  margin: 2em 0 1em 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin: 2em 0 1em 0;
 }
-
 section > h1 {
-  margin-top: 2em;
+    margin-top: 2em;
 }
