@@ -1,33 +1,49 @@
 body {
   /*Typography Declarations*/
-  color: #FFF;
-  background-color: #000;
+  /*color: #FFF;*/
+  color:black;
+  background-color:whitesmoke;
   font-size: 2em;
   font-family: 'Cinzel', serif;    
-  text-shadow: .05em .1em .05em #8A0707; 
+  text-shadow: .05em .1em 1em #8A0707; 
+  text-align:center;
 }
-.content-footer,
+/*.content-footer,
 .masthead-intro,
 .masthead-heading {
   text-align: center;
+}*/
+.content-footer, .masthead-intro, .masthead-heading {
+    text-align: right;
+}
+.scroll {
+  text-align: right;
 }
 @media only screen and (max-width: 500px){
     .masthead {
     padding: 3em 0;
   }
   .masthead-heading {
-    font-size: 1em;
+    /*font-size: 1em;*/
+        font-size: 5.75em;
   }
 }
 .masthead {
 /*  padding: 1em 0;
 */  postion:absolute;
-  background-position:center;
-  background-image: url(http://i1243.photobucket.com/albums/gg545/jmpriddy/3d9577fb-6671-4d53-8577-d8491f457b19.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: left;
+  /*background-position:center;*/
+  /*make background image come from image file, you have it already, build it*/
+  background-image: url("../us-flag.jpg");
+/*  background-image: url(http://i1243.photobucket.com/albums/gg545/jmpriddy/3d9577fb-6671-4d53-8577-d8491f457b19.jpg);
+*/  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: whitesmoke;
+  color:black;
   width:100%;
   height:5%;
+  /*  width: 68%;
+    height: 10%;*/
   border-top: solid 1em #8A0707;
   border-radius: 5px 5px;
 }
@@ -45,14 +61,15 @@ body {
   margin-top: -0.2em;
   /*Typography Declarations*/
   font-weight: bold;
-  font-size: 6em;
+  /*font-size: 6em;*/
+  font-size: 5.75em;
   letter-spacing:-0.02em;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 .masthead-intro,
 .masthead-heading {
-  color: #FFF;
-  text-shadow: .05em .01em .05em #8A0707;
+  color: black;
+  text-shadow: .05em .01em .25em #8A0707;
   font-family: 'Dancing Script', cursive;
 }
 .introduction-section,
@@ -82,8 +99,12 @@ a {
   color: #B4923C;
 }
 
-.content-footer > p {
+.p {
   color: white;
+  text-transform: lowercase;
+}
+p:first letter {
+  text-transform: capitalize;
 }
 .introduction-section > p,
 .location-section > p,
@@ -96,7 +117,7 @@ a {
   /*Typography Declarations*/
   font-size: 1.2em;
   font-weight: bold;
-  color: #744437;
+  color: white;
   /*Layout*/
   margin: 2em 0 1em 0;
 }
